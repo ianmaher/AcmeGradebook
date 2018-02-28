@@ -1,0 +1,6 @@
+{
+    "scheduleService": {
+        "host": "localhost",
+        "port": 4010
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "scheduling",
+  "version": "1.0.0",
+  "description": "scrapbook project for scheduling ideas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Ian Maher",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.138.0",
+    "axios": "^0.17.0",
+    "body-parser": "^1.15.2",
+    "collections": "^5.0.7",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
