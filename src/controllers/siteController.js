@@ -102,13 +102,13 @@ module.exports = function (payLoad) {
 
         for (var x = 0; x < 1; x++) {
             var headers = {
-                'Authorization':         'MGYwMWFiZTEzNjMzYjc2ZjAwNWU2YTJiYmVkYTBjYjM3NmM3MzcyZDo2MTFjOGUzYTI0ZmI5OGYzMWFiN2JmNTMzZWQ3NmNmYTg1OWRlMDQ5',
+                'Authorization': '',
                 'X-Experience-API-Version':'1.3.0'
             };
             var options = {
                 host:'54.75.242.34',
                 method: 'put',
-                path:'data/xAPI/statements?statementId=dfb7218c-0fc9-4dfc-9524-d497097de026',
+                path:'data/xAPI/statements',
                 headers: headers
             };
 
